@@ -1,0 +1,20 @@
+@import './primitives/index';
+@import './components/index';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic,cyrillic-ext');
+
+body {
+	color: $text-color;
+}
+
+section {
+	margin-top: 38px;
+}
+
+.pl-20 {
+	padding-left: 20px;
+}
+
+.pd-10 {
+	padding: 10px;
+}

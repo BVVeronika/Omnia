@@ -1,0 +1,22 @@
+.top-menu {
+    border-bottom: 1px solid $color-top-menu;
+    box-shadow: none;
+    background: none;
+
+    & a {
+        color: $color-top-menu;
+        &.active {
+            border-bottom: 2px solid $color-active-menu;
+        }
+    }
+
+    &-avatar {
+        padding: 8px 0;
+    }
+
+    .dropdown-content {
+        & a {
+            color: $color-active-menu;
+        }
+    }
+}

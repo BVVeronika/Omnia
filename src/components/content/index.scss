@@ -1,0 +1,103 @@
+.card {
+    box-shadow: none;
+    border: 1px solid $border-color-card;
+    .card-content {
+        &.pd-10 {
+            padding: 10px;
+            .personal-info {
+                margin-bottom: 5px;
+                font-size: 12px;
+                .avatar {
+                    margin-right:  10px;
+                    width: 30px;
+                    height: 30px;
+                    border: 1px solid $border-color;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        &.icon{
+            padding: 15px 10px;
+            overflow: hidden;
+            font-size: 15px;
+            i::before {
+                margin-right: 5px;
+            }
+            .fonts {
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+img {width: 100%;}
+
+
+.slider-leaders {
+    height: 560px;
+    overflow: hidden;
+    &.collapsible {
+        border: none;
+        box-shadow: none;
+    }
+    .collapsible-body {
+        padding: 0;
+        border: none;
+    }
+
+    .collapsible-header {
+        min-height: 2rem;
+        padding-left: 0;
+        border: none;
+        line-height: 2rem;
+        .title {
+            font-size: 19px;
+            text-decoration: underline;
+        }
+    }
+}
+
+.autoplay {
+    .slick-slide {
+        height: auto;
+    }
+    .card-image {
+        .card-title {
+            padding: 5px;
+            font-size: 12px;
+            .icon-title {
+                padding: 5px 0;
+                width: 100%;
+                &::before {
+                    margin-right: 5px;
+                } 
+            }
+        }
+    }
+
+    .slick-prev {
+        left: 8px;
+        z-index: 10;
+        &::before {
+            font-size: 40px;
+            color: $border-color;
+            opacity: 1;
+        }
+    }
+
+    .slick-next {
+        right: 29px;
+        z-index: 10;
+        &::before {
+            font-size: 40px;
+            color: $border-color;
+            opacity: 1;
+        }
+    }
+}
+
+.open-list {
+    text-decoration: underline;
+    color: $button-open-color;
+}

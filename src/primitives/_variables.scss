@@ -1,0 +1,31 @@
+$background-color: #fff;
+$text-color: #4b4b4b;
+$color-top-menu: #7f7f7f;
+$color-active-menu: #3e4eb8;
+$border-color: #777777;
+$border-color-card: #f7f7f7;
+$button-open-color: #330099;
+$input-text-color: #c8c8c8;
+$input-text-border: #e5e5e5;
+$checkbox-border: #435993;
+$checkbox-checked: #435993;
+$textarea-border: #e5e5e5;
+$textarea-color: #c8c8c8;
+$button-background: #435993;
+
+
+$screen-xs: 360px;
+$screen-xs-min: ($screen-xs);
+
+$screen-sm: 768px;
+$screen-sm-min: ($screen-sm);
+
+$screen-md: 1024px;
+$screen-md-min: ($screen-md);
+
+$screen-lg: 1280px;
+$screen-lg-min: ($screen-lg);
+
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-sm-max: ($screen-md-min - 1);
+$screen-md-max: ($screen-lg-min - 1);
