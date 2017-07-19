@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -23,7 +24,8 @@ module.exports = {
     // Output system.
     output: {
         path: distDir,
-        filename: '[name].bundle.js'
+        filename: '[name].bundle.js',
+        publicPath: '/'
     },
 
     // Resolves modules.
@@ -105,7 +107,11 @@ module.exports = {
         }),
 
         new ExtractTextPlugin("[name].css"),
-
+        new CopyWebpackPlugin([
+            { context: 'src/assets', from: '**/*.png', to: 'assets/images' },
+            { context: 'src/assets', from: '**/*.svg', to: 'assets/images' },
+            { context: 'src/assets', from: '**/*.ico', to: 'assets/images' }
+        ]),
         new ProgressBarPlugin()
     ]
 };
