@@ -250,14 +250,14 @@
 @font-face {
   font-family: "MyriadProRegular";
   src: url(assets/fonts/MyriadProRegular.eot);
-  src: url(assets/fonts/MyriadProRegular.eot?#iefix) format("embedded-opentype"), url(/assets/fonts/MyriadProRegular.woff) format("woff"), url(/assets/fonts/MyriadProRegular.ttf) format("truetype");
+  src: url(assets/fonts/MyriadProRegular.eot?#iefix) format("embedded-opentype"), url(assets/fonts/MyriadProRegular.woff) format("woff"), url(assets/fonts/MyriadProRegular.ttf) format("truetype");
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: "MyriadProBold";
   src: url(assets/fonts/MyriadProBold.eot);
-  src: url(assets/fonts/MyriadProBold.eot?#iefix) format("embedded-opentype"), url(/assets/fonts/MyriadProBold.woff) format("woff"), url(/assets/fonts/MyriadProBold.ttf) format("truetype");
+  src: url(assets/fonts/MyriadProBold.eot?#iefix) format("embedded-opentype"), url(assets/fonts/MyriadProBold.woff) format("woff"), url(assets/fonts/MyriadProBold.ttf) format("truetype");
   font-style: normal;
   font-weight: normal; }
 
