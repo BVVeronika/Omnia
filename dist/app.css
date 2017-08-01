@@ -5,7 +5,7 @@
   height: 769px;
   box-sizing: border-box;
   overflow: hidden;
-  background-image: url("/src/assets/images/bg.png");
+  background-image: url("/assets/images/bg.png");
   background-repeat: no-repeat;
   color: #fff;
   border-bottom: 14px solid transparent;
@@ -37,7 +37,7 @@
     margin-left: 202px;
     width: 113px;
     height: 113px;
-    background-image: url("/src/assets/images/logo.png");
+    background-image: url(/assets/images/logo.4a4592ff2acc08da41d5d1c3c9c3a2ba.png);
     background-size: contain;
     background-repeat: no-repeat; }
   .block-header-title {
@@ -249,21 +249,21 @@
 
 @font-face {
   font-family: "MyriadProRegular";
-  src: url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.eot");
-  src: url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  src: url(/assets/fonts/MyriadProRegular.eot);
+  src: url(/assets/fonts/MyriadProRegular.eot?#iefix) format("embedded-opentype"), url(/assets/fonts/MyriadProRegular.woff) format("woff"), url(/assets/fonts/MyriadProRegular.ttf) format("truetype");
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: "MyriadProBold";
-  src: url("/src/assets/fonts/MyriadProBold/MyriadProBold.eot");
-  src: url("/src/assets/fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("/src/assets/fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("/src/assets/fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  src: url(/assets/fonts/MyriadProBold.eot);
+  src: url(/assets/fonts/MyriadProBold.eot?#iefix) format("embedded-opentype"), url(/assets/fonts/MyriadProBold.woff) format("woff"), url(/assets/fonts/MyriadProBold.ttf) format("truetype");
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: "BebasNeueBold";
-  src: url("/src/assets/fonts/BebasNeueBold/BebasNeueBold.ttf") format("truetype");
+  src: url(/assets/fonts/BebasNeueBold.ttf) format("truetype");
   font-style: normal;
   font-weight: normal; }
 /* Get the bourbon mixin from http://bourbon.io */

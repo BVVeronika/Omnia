@@ -3,27 +3,27 @@
 
 @font-face {
     font-family: "MyriadProRegular";
-    src: url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.eot");
-    src: url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-    url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
-    url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    src: url("./assets/fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("./assets/fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("./assets/fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("./assets/fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "MyriadProBold";
-    src: url("/src/assets/fonts/MyriadProBold/MyriadProBold.eot");
-    src: url("/src/assets/fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
-    url("/src/assets/fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
-    url("/src/assets/fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    src: url("./assets/fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("./assets/fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("./assets/fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("./assets/fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "BebasNeueBold";
-    src: url("/src/assets/fonts/BebasNeueBold/BebasNeueBold.ttf") format("truetype");
+    src: url("./assets/fonts/BebasNeueBold/BebasNeueBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
