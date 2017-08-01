@@ -1,20 +1,31 @@
-@import './primitives/index';
 @import './components/index';
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic,cyrillic-ext');
 
-body {
-	color: $text-color;
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("/src/assets/fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
-section {
-	margin-top: 38px;
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("/src/assets/fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("/src/assets/fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("/src/assets/fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("/src/assets/fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
-.pl-20 {
-	padding-left: 20px;
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url("/src/assets/fonts/BebasNeueBold/BebasNeueBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
-.pd-10 {
-	padding: 10px;
-}
+
